@@ -1,0 +1,37 @@
+.contactContainer {
+    width: 256px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-color: black;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.contactItem {
+    display: flex;
+    column-gap: 8px;
+}
+
+
+
+.iconStyle {
+    width: 20px;
+    height: 20px;
+}
+
+.deleteButton {
+    font-weight: 400;
+    padding: 0 4px;
+    height: 24px;
+    background-color: #EEE;
+    border-radius: 2px;
+    border-color: black;
+}
+
+.deleteButton:hover {
+    background-color: #DDD;
+}
